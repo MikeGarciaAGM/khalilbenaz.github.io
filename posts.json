@@ -571,5 +571,18 @@
     "tags": [],
     "date": "2026-04-04",
     "order": 52
+  },
+  {
+    "id": "4bd7c976",
+    "title": "OpenCost et FinOps Kubernetes",
+    "url": "https://github.com/khalilbenaz/khalilbenaz.github.io/issues/252",
+    "excerpt": "## Le problème K8s cost Vous opérez Kubernetes. Bill cloud arrive : $30k/mois EKS. Qui consomme quoi ? Mystère. Sans tooling spécifique, attribuer les coûts par équipe, service, app est impossible. Kubernetes pool les resources. OpenCost résout. CNCF project, OSS, mature. ## Setup ```bash helm install opencost opencost/opencost ``` OpenCost scrape cluster metrics + pricing cloud provider. Calcule cost per pod, namesp",
+    "tags": [
+      "BLOG",
+      "KUBERNETES",
+      "OBSERVABILITY"
+    ],
+    "date": "2026-05-23",
+    "order": 53
   }
 ]
